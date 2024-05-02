@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=!automaticon_equipped,tag=automaticon] at @s run function automaticons:appearence/get_data
