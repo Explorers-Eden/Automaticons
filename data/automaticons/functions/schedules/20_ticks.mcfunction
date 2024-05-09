@@ -1,4 +1,4 @@
 function automaticons:appearence/run
 function automaticons:riders/run
 
-schedule function automaticons:schedules/10_ticks 10t
+schedule function automaticons:schedules/20_ticks 20t

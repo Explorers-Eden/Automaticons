@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "www",
+      "wtw",
+      "sss"
+    ],
+    "key": {
+      "s": {
+        "item": "minecraft:smooth_stone_slab"
+      },
+      "t": {
+        "item": "minecraft:golden_pickaxe"
+      },
+      "w": [
+        {
+          "item": "minecraft:gold_block"
+        },
+        {
+          "item": "minecraft:raw_gold_block"
+        }
+      ]
+    },
+    "result": {
+      "id": "minecraft:armor_stand",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Pickaxe Automaticon\"}",
+        "minecraft:entity_data": 
+        {
+          "id": "minecraft:armor_stand",
+          "Small": 1,
+          "Invulnerable": 1,
+          "ShowArms": 1,
+          "Marker": 1,
+          "NoBasePlate": 1,
+          "Tags": [
+            "pickaxe_gold_tier",
+            "automaticon"
+        ],
+          "HandItems": [
+            {
+          },
+          {
+            "id": "minecraft:golden_pickaxe",
+            "count": 1
+            }
+        ]
+        }
+      }
+    }
+  }
+  
