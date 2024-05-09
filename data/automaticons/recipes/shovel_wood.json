@@ -50,6 +50,7 @@
       "id": "minecraft:armor_stand",
       "count": 1,
       "components": {
+        "minecraft:custom_model_data": 130504,
         "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Shovel Automaticon\"}",
         "minecraft:entity_data": 
         {

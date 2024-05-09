@@ -11,32 +11,11 @@
         "item": "minecraft:smooth_stone_slab"
       },
       "t": {
-        "item": "minecraft:stone_hoe"
+        "item": "minecraft:netherite_shovel"
       },
       "w": [
         {
-          "item": "minecraft:stone"
-        },
-        {
-          "item": "minecraft:blackstone"
-        },
-        {
-          "item": "minecraft:deepslate"
-        },
-        {
-          "item": "minecraft:andesite"
-        },
-        {
-          "item": "minecraft:granite"
-        },
-        {
-          "item": "minecraft:diorite"
-        },
-        {
-          "item": "minecraft:tuff"
-        },
-        {
-          "item": "minecraft:basalt"
+          "item": "minecraft:netherite_upgrade_smithing_template"
         }
       ]
     },
@@ -44,8 +23,8 @@
       "id": "minecraft:armor_stand",
       "count": 1,
       "components": {
-        "minecraft:custom_model_data": 130507,
-        "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Hoe Automaticon\"}",
+        "minecraft:custom_model_data": 130529,
+        "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Netherite Shovel Automaticon\"}",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",
@@ -55,14 +34,14 @@
           "Marker": 1,
           "NoBasePlate": 1,
           "Tags": [
-            "hoe_stone_tier",
+            "shovel_netherite_tier",
             "automaticon"
         ],
           "HandItems": [
             {
           },
           {
-            "id": "minecraft:stone_hoe",
+            "id": "minecraft:netherite_shovel",
             "count": 1
             }
         ]

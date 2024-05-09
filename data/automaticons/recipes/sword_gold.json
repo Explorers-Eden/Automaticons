@@ -26,6 +26,7 @@
       "id": "minecraft:armor_stand",
       "count": 1,
       "components": {
+        "minecraft:custom_model_data": 130515,
         "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Sword Automaticon\"}",
         "minecraft:entity_data": 
         {

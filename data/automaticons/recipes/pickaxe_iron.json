@@ -11,32 +11,14 @@
         "item": "minecraft:smooth_stone_slab"
       },
       "t": {
-        "item": "minecraft:stone_hoe"
+        "item": "minecraft:iron_pickaxe"
       },
       "w": [
         {
-          "item": "minecraft:stone"
+          "item": "minecraft:iron_block"
         },
         {
-          "item": "minecraft:blackstone"
-        },
-        {
-          "item": "minecraft:deepslate"
-        },
-        {
-          "item": "minecraft:andesite"
-        },
-        {
-          "item": "minecraft:granite"
-        },
-        {
-          "item": "minecraft:diorite"
-        },
-        {
-          "item": "minecraft:tuff"
-        },
-        {
-          "item": "minecraft:basalt"
+          "item": "minecraft:raw_iron_block"
         }
       ]
     },
@@ -44,8 +26,8 @@
       "id": "minecraft:armor_stand",
       "count": 1,
       "components": {
-        "minecraft:custom_model_data": 130507,
-        "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Hoe Automaticon\"}",
+        "minecraft:custom_model_data": 130518,
+        "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Iron Pickaxe Automaticon\"}",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",
@@ -55,14 +37,14 @@
           "Marker": 1,
           "NoBasePlate": 1,
           "Tags": [
-            "hoe_stone_tier",
+            "pickaxe_iron_tier",
             "automaticon"
         ],
           "HandItems": [
             {
           },
           {
-            "id": "minecraft:stone_hoe",
+            "id": "minecraft:iron_pickaxe",
             "count": 1
             }
         ]

@@ -11,32 +11,11 @@
         "item": "minecraft:smooth_stone_slab"
       },
       "t": {
-        "item": "minecraft:stone_hoe"
+        "item": "minecraft:diamond_axe"
       },
       "w": [
         {
-          "item": "minecraft:stone"
-        },
-        {
-          "item": "minecraft:blackstone"
-        },
-        {
-          "item": "minecraft:deepslate"
-        },
-        {
-          "item": "minecraft:andesite"
-        },
-        {
-          "item": "minecraft:granite"
-        },
-        {
-          "item": "minecraft:diorite"
-        },
-        {
-          "item": "minecraft:tuff"
-        },
-        {
-          "item": "minecraft:basalt"
+          "item": "minecraft:diamond_block"
         }
       ]
     },
@@ -44,8 +23,8 @@
       "id": "minecraft:armor_stand",
       "count": 1,
       "components": {
-        "minecraft:custom_model_data": 130507,
-        "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Hoe Automaticon\"}",
+        "minecraft:custom_model_data": 130521,
+        "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Diamond Axe Automaticon\"}",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",
@@ -55,14 +34,14 @@
           "Marker": 1,
           "NoBasePlate": 1,
           "Tags": [
-            "hoe_stone_tier",
+            "axe_diamond_tier",
             "automaticon"
         ],
           "HandItems": [
             {
           },
           {
-            "id": "minecraft:stone_hoe",
+            "id": "minecraft:diamond_axe",
             "count": 1
             }
         ]
