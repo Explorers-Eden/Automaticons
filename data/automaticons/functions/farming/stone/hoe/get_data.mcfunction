@@ -1,5 +1,5 @@
 data modify storage automaticons:farming payout_item set from entity @s HandItems[0].id
-execute store result storage automaticons:farming payout_amount int 1 run random value 1..2
+execute store result storage automaticons:farming payout_amount int 1 run random value 1..4
 
 execute store result score @s automaticons.tool.durability.current if items entity @s weapon.mainhand #automaticons:is_low_dmg run random value 1..3
 execute store result score @s automaticons.tool.durability.current if items entity @s weapon.mainhand #automaticons:is_mid_dmg run random value 4..6
