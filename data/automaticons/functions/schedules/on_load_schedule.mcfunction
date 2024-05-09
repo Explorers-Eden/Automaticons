@@ -1,1 +1,2 @@
 schedule function automaticons:schedules/21_minutes 1260s
+schedule function automaticons:schedules/10_ticks 10t
