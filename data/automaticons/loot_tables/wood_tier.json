@@ -1,0 +1,200 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:custom_model_data": 130501,
+                    "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Axe Automaticon\"}",
+                    "minecraft:entity_data": 
+                    {
+                      "id": "minecraft:armor_stand",
+                      "Small": 1,
+                      "Invulnerable": 1,
+                      "ShowArms": 1,
+                      "Marker": 1,
+                      "NoBasePlate": 1,
+                      "Tags": [
+                        "axe_wood_tier",
+                        "automaticon"
+                    ],
+                      "HandItems": [
+                        {
+                      },
+                      {
+                        "id": "minecraft:wooden_axe",
+                        "count": 1
+                        }
+                    ]
+                    }
+                  }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:custom_model_data": 130502,
+                    "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Hoe Automaticon\"}",
+                    "minecraft:entity_data": 
+                    {
+                      "id": "minecraft:armor_stand",
+                      "Small": 1,
+                      "Invulnerable": 1,
+                      "ShowArms": 1,
+                      "Marker": 1,
+                      "NoBasePlate": 1,
+                      "Tags": [
+                        "hoe_wood_tier",
+                        "automaticon"
+                    ],
+                      "HandItems": [
+                        {
+                      },
+                      {
+                        "id": "minecraft:wooden_hoe",
+                        "count": 1
+                        }
+                    ]
+                    }
+                  }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:custom_model_data": 130503,
+                    "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Pickaxe Automaticon\"}",
+                    "minecraft:entity_data": 
+                    {
+                      "id": "minecraft:armor_stand",
+                      "Small": 1,
+                      "Invulnerable": 1,
+                      "ShowArms": 1,
+                      "Marker": 1,
+                      "NoBasePlate": 1,
+                      "Tags": [
+                        "pickaxe_wood_tier",
+                        "automaticon"
+                    ],
+                      "HandItems": [
+                        {
+                      },
+                      {
+                        "id": "minecraft:wooden_pickaxe",
+                        "count": 1
+                        }
+                    ]
+                    }
+                  }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:custom_model_data": 130504,
+                    "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Shovel Automaticon\"}",
+                    "minecraft:entity_data": 
+                    {
+                      "id": "minecraft:armor_stand",
+                      "Small": 1,
+                      "Invulnerable": 1,
+                      "ShowArms": 1,
+                      "Marker": 1,
+                      "NoBasePlate": 1,
+                      "Tags": [
+                        "shovel_wood_tier",
+                        "automaticon"
+                    ],
+                      "HandItems": [
+                        {
+                      },
+                      {
+                        "id": "minecraft:wooden_shovel",
+                        "count": 1
+                        }
+                    ]
+                    }
+                  }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:custom_model_data": 130505,
+                    "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Sword Automaticon\"}",
+                    "minecraft:entity_data": 
+                    {
+                      "id": "minecraft:armor_stand",
+                      "Small": 1,
+                      "Invulnerable": 1,
+                      "ShowArms": 1,
+                      "Marker": 1,
+                      "NoBasePlate": 1,
+                      "Tags": [
+                        "sword_wood_tier",
+                        "automaticon"
+                    ],
+                      "HandItems": [
+                        {
+                      },
+                      {
+                        "id": "minecraft:wooden_sword",
+                        "count": 1
+                        }
+                    ]
+                    }
+                  }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
