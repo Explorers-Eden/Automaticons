@@ -1,0 +1,1 @@
+$schedule function automaticons:schedules/long_time $(long)s
