@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=automaticon] at @s if entity @e[type=player,distance=..24] run function automaticons:animations/turn_to_entity

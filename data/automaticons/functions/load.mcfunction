@@ -1,5 +1,6 @@
 ## add scoreboards
 scoreboard objectives add automaticons.technical dummy
+scoreboard objectives add automaticons.animations dummy
 scoreboard objectives add automaticons.tool.durability.current dummy
 scoreboard objectives add automaticons.tool.durability.total dummy
 

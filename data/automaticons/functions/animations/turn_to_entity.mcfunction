@@ -1,0 +1,1 @@
+execute if predicate automaticons:percentages/30percent run tp @s ~ ~ ~ facing entity @e[type=!armor_stand,limit=1,sort=random]
