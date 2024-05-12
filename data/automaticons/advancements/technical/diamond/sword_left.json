@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ],
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"automaticon_interaction\",\"diamond_sword\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "automaticons:player_interactions/diamond/sword_left"
+    }
+  }
+  
