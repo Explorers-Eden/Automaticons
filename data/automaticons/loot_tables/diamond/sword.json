@@ -1,0 +1,48 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:custom_model_data": 130525,
+                    "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Diamond Sword Automaticon\"}",
+                    "minecraft:entity_data": 
+                    {
+                      "id": "minecraft:armor_stand",
+                      "Small": 1,
+                      "Invulnerable": 1,
+                      "ShowArms": 1,
+                      "Marker": 1,
+                      "NoBasePlate": 1,
+                      "Tags": [
+                        "sword_diamond_tier",
+                        "automaticon"
+                    ],
+                      "HandItems": [
+                        {
+                      },
+                      {
+                        "id": "minecraft:diamond_sword",
+                        "count": 1
+                        }
+                    ]
+                    }
+                  }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
