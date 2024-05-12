@@ -9,7 +9,7 @@ execute as @e[type=armor_stand,tag=automaticon] at @s if score @s automaticons.a
 execute as @e[type=armor_stand,tag=automaticon] at @s if score @s automaticons.animations matches 6 run function automaticons:animations/head_1
 execute as @e[type=armor_stand,tag=automaticon] at @s if score @s automaticons.animations matches 7 run function automaticons:animations/head_2
 
-execute if score $anim_clock automaticons.animations matches 31.. run data modify entity @s Pose set value {Head:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]}
+execute if score $anim_clock automaticons.animations matches 31.. run data modify entity @s Pose set value {Head:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f],LeftArm:[0f,345f,0f],RightArm:[0f,15f,0f]}
 
 execute store result score $anim_clock automaticons.animations if score $anim_clock automaticons.animations matches ..31 run scoreboard players add $anim_clock automaticons.animations 1
 execute if score $anim_clock automaticons.animations matches 32.. run scoreboard players set $anim_clock automaticons.animations 0
