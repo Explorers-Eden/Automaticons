@@ -1,0 +1,44 @@
+[
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "vehicle": {
+              "nbt": "{Tags:[\"automaticon\"]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "vehicle": {
+              "nbt": "{Tags:[\"automaticon_interaction\"]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "vehicle": {
+              "nbt": "{Tags:[\"automaticons_durability_display\"]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "vehicle": {
+              "nbt": "{Tags:[\"automaticons_name_display\"]}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+  
