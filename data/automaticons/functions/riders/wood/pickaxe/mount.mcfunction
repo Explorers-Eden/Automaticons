@@ -1,5 +1,5 @@
 $tag @s add $(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)
-$summon interaction ~ ~ ~ {width:.5f,height:1.2f,Tags:["wood_pickaxe","automaticon_interaction","$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)"]}
+$summon interaction ~ ~ ~ {width:.5f,height:1.2f,Tags:["ac_pickaxe","wood_pickaxe","automaticon_interaction","$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)"]}
 $ride @e[type=interaction,limit=1,sort=nearest,tag=$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)] mount @s
 
 $summon text_display ~ ~ ~ {alignment:"center",billboard:"vertical",shadow:1b,Tags:["automaticons_durability_display","$(uuid_0)$(uuid_1)$(uuid_2)$(uuid_3)"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.3f,0f],scale:[.25f,.25f,.25f]},text:'{"text":"Durability: 32/32","color":"#c5bfbc","bold":false,"italic":false}',background:16711680}

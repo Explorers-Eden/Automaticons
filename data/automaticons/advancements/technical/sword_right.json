@@ -12,7 +12,7 @@
           ],
           "entity": {
             "type": "minecraft:interaction",
-            "nbt": "{Tags:[\"automaticon_interaction\",\"wood_sword\"]}"
+            "nbt": "{Tags:[\"automaticon_interaction\",\"ac_sword\"]}"
           }
         }
       }

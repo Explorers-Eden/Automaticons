@@ -12,7 +12,7 @@
           ],
           "entity": {
             "type": "minecraft:interaction",
-            "nbt": "{Tags:[\"automaticon_interaction\",\"wood_shovel\"]}"
+            "nbt": "{Tags:[\"automaticon_interaction\",\"ac_shovel\"]}"
           }
         }
       }

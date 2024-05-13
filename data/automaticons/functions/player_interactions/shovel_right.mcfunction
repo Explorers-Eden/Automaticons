@@ -1,3 +1,4 @@
+execute unless items entity @s weapon.mainhand * run function automaticons:player_interactions/fist_right
 execute if items entity @s weapon.mainhand #automaticons:is_valid_shovel run function automaticons:player_interactions/valid_item
 execute unless items entity @s weapon.mainhand #automaticons:is_valid_shovel unless items entity @s weapon.mainhand #automaticons:is_shovel run function automaticons:player_interactions/invalid_item
 
