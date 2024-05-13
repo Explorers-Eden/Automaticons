@@ -18,7 +18,7 @@
       }
     },
     "rewards": {
-      "function": "automaticons:player_interactions/wood/sword_right"
+      "function": "automaticons:player_interactions/sword_right"
     }
   }
   
