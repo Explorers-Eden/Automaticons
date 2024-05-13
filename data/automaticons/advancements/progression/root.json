@@ -1,0 +1,58 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:player_head",
+        "components": {
+          "minecraft:profile": {
+            "name": "villager"
+          }
+        }
+      },
+      "title": "Automaticons",
+      "description": "Farming Made Fun!",
+      "background": "minecraft:textures/block/cherry_planks.png",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "automaticons:axe_diamond",
+        "automaticons:axe_gold",
+        "automaticons:axe_iron",
+        "automaticons:axe_netherite",
+        "automaticons:axe_stone",
+        "automaticons:axe_wood",
+        "automaticons:hoe_diamond",
+        "automaticons:hoe_gold",
+        "automaticons:hoe_iron",
+        "automaticons:hoe_netherite",
+        "automaticons:hoe_stone",
+        "automaticons:hoe_wood",
+        "automaticons:pickaxe_diamond",
+        "automaticons:pickaxe_gold",
+        "automaticons:pickaxe_iron",
+        "automaticons:pickaxe_netherite",
+        "automaticons:pickaxe_stone",
+        "automaticons:pickaxe_wood",
+        "automaticons:shovel_diamond",
+        "automaticons:shovel_gold",
+        "automaticons:shovel_iron",
+        "automaticons:shovel_netherite",
+        "automaticons:shovel_stone",
+        "automaticons:shovel_wood",
+        "automaticons:sword_diamond",
+        "automaticons:sword_gold",
+        "automaticons:sword_iron",
+        "automaticons:sword_netherite",
+        "automaticons:sword_stone",
+        "automaticons:sword_wood"
+      ]
+    }
+  }
+  
