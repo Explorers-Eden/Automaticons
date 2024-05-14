@@ -12,13 +12,13 @@
           ],
           "entity": {
             "type": "minecraft:interaction",
-            "nbt": "{Tags:[\"automaticon_interaction\",\"diamond_sword\"]}"
+            "nbt": "{Tags:[\"automaticon_interaction\",\"ac_axe\"]}"
           }
         }
       }
     },
     "rewards": {
-      "function": "automaticons:player_interactions/diamond/sword_left"
+      "function": "automaticons:player_interactions/axe_left"
     }
   }
   
