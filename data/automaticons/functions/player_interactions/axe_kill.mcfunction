@@ -14,3 +14,4 @@ execute as @e[type=text_display,tag=automaticons_durability_display,predicate=!a
 execute as @e[type=text_display,tag=automaticons_name_display,predicate=!automaticons:entity/vehicle] run kill @s
 
 $tag @s remove $(tier)
+tag @s remove ac_break
