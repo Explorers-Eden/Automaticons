@@ -27,7 +27,8 @@
                       "NoBasePlate": 1,
                       "Tags": [
                         "pickaxe_netherite_tier",
-                        "automaticon"
+                        "automaticon",
+                        "ac_pickaxe"
                     ],
                       "HandItems": [
                         {

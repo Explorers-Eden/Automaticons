@@ -27,7 +27,8 @@
                       "NoBasePlate": 1,
                       "Tags": [
                         "sword_iron_tier",
-                        "automaticon"
+                        "automaticon",
+                        "ac_sword"
                     ],
                       "HandItems": [
                         {

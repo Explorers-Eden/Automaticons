@@ -27,7 +27,8 @@
                       "NoBasePlate": 1,
                       "Tags": [
                         "shovel_diamond_tier",
-                        "automaticon"
+                        "automaticon",
+                        "ac_shovel"
                     ],
                       "HandItems": [
                         {

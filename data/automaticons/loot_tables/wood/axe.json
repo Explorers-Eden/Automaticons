@@ -27,7 +27,8 @@
                       "NoBasePlate": 1,
                       "Tags": [
                         "axe_wood_tier",
-                        "automaticon"
+                        "automaticon",
+                        "ac_axe"
                     ],
                       "HandItems": [
                         {

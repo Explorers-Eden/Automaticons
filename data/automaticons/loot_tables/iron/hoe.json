@@ -27,7 +27,8 @@
                       "NoBasePlate": 1,
                       "Tags": [
                         "hoe_iron_tier",
-                        "automaticon"
+                        "automaticon",
+                        "ac_hoe"
                     ],
                       "HandItems": [
                         {
