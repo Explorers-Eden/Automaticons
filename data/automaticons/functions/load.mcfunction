@@ -2,7 +2,8 @@
 scoreboard objectives add automaticons.technical dummy
 scoreboard objectives add automaticons.animations dummy
 scoreboard objectives add automaticons.tool.durability.current dummy
-scoreboard objectives add automaticons.tool.durability.total dummy
+scoreboard objectives add automaticons.tool.durability.temp dummy
+scoreboard objectives add automaticons.tool.durability.max dummy
 scoreboard objectives add automaticons.item.count dummy
 
 scoreboard players add $anim_clock automaticons.animations 0

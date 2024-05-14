@@ -12,6 +12,3 @@ execute store result storage automaticons:farming durability int 1 run scoreboar
 function automaticons:farming/get_uuid
 
 function automaticons:farming/wood/sword/payout with storage automaticons:farming
-
-
-#tellraw @s [{"storage":"automaticons:farming","nbt":"payout_item","color":"#F5E8C9","bold":false,"italic":false}]
