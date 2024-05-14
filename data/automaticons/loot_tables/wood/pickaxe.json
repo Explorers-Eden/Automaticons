@@ -12,6 +12,27 @@
                 "count": 1
               },
               {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "• 32 Durability Points",
+                    "color": "#c3e6fc",
+                    "font": "minecraft:default",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "• 50% Payout Chance",
+                    "color": "#c3e6fc",
+                    "font": "minecraft:default",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                "mode": "append"
+              },
+              {
                 "function": "minecraft:set_components",
                 "components": {
                     "minecraft:custom_model_data": 130503,

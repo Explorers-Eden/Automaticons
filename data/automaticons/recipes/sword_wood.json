@@ -50,6 +50,11 @@
       "id": "minecraft:armor_stand",
       "count": 1,
       "components": {
+        "minecraft:max_stack_size": 1,
+        "minecraft:lore": [
+          "{\"bold\":false,\"color\":\"#C3E6FC\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 32 Durability Points\"}",
+          "{\"bold\":false,\"color\":\"#C3E6FC\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 50% Payout Chance\"}"
+        ],
         "minecraft:custom_model_data": 130505,
         "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Sword Automaticon\"}",
         "minecraft:entity_data": 
@@ -62,7 +67,8 @@
           "NoBasePlate": 1,
           "Tags": [
             "sword_wood_tier",
-            "automaticon"
+            "automaticon",
+            "ac_sword"
         ],
           "HandItems": [
             {
