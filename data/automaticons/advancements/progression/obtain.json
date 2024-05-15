@@ -1,0 +1,405 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:armor_stand"
+      },
+      "title": "Honest Work",
+      "description": "Obtain every Automaticon",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "automaticons:progression/root",
+    "criteria": {
+      "stone_axe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Axe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "stone_hoe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Hoe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "stone_pickaxe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Pickaxe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "stone_shovel": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Shovel Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "stone_sword": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Sword Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "wood_axe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Axe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "wood_hoe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Hoe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "wood_pickaxe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Pickaxe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "wood_shovel": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Shovel Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "wood_sword": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Sword Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "gold_axe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Axe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "gold_hoe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Hoe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "gold_pickaxe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Pickaxe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "gold_shovel": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Shovel Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "gold_sword": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Sword Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "iron_axe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Iron Axe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "iron_hoe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Iron Hoe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "iron_pickaxe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Iron Pickaxe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "iron_shovel": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Iron Shovel Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "iron_sword": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Iron Sword Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "diamond_axe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Diamond Axe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "diamond_hoe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Diamond Hoe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "diamond_pickaxe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Diamond Pickaxe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "diamond_shovel": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Diamond Shovel Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "diamond_sword": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Diamond Sword Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },"netherite_axe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Netherite Axe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "netherite_hoe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Netherite Hoe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "netherite_pickaxe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Netherite Pickaxe Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "netherite_shovel": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Netherite Shovel Automaticon\"}"
+              }
+            }
+          ]
+        }
+      },
+      "netherite_sword": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armor_stand",
+              "components": {
+                "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Netherite Sword Automaticon\"}"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  
