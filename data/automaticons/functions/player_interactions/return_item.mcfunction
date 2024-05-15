@@ -1,3 +1,2 @@
-$give @s $(return_item)
-data remove storage automaticons:interaction return_item
+$give @s $(return_item) 1
 scoreboard players set $holding_item automaticons.technical 0
