@@ -1,0 +1,23 @@
+[
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "vehicle": {
+              "type": "minecraft:armor_stand",
+              "nbt": "{Tags:[\"automaticon\"]}",
+              "equipment": {
+                "offhand": {
+                  "items": "#automaticons:is_iron_tool"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  
