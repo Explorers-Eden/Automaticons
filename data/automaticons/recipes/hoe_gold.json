@@ -29,7 +29,8 @@
         "minecraft:max_stack_size": 1,
         "minecraft:lore": [
           "{\"bold\":false,\"color\":\"#C3E6FC\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 96 Durability Points\"}",
-          "{\"bold\":false,\"color\":\"#C3E6FC\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 70% Payout Chance\"}"
+          "{\"bold\":false,\"color\":\"#C3E6FC\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 70% Payout Chance\"}",
+          "{\"bold\":false,\"color\":\"#C3E6FC\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 1-6 Items Per Payout\"}"
         ],
         "minecraft:custom_model_data": 130512,
         "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Hoe Automaticon\"}",
