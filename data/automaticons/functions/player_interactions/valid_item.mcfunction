@@ -1,6 +1,6 @@
 execute store result score @s automaticons.item.count run data get entity @s SelectedItem.count
-execute if score @s automaticons.item.count matches 2.. run scoreboard players operation @s automaticons.item.count -= $one automaticons.item.count
-execute store result storage automaticons:interaction valid_count int 1 run scoreboard players get @s automaticons.item.count
+execute store result score @s automaticons.item.count.reduced run data get entity @s SelectedItem.count
+execute if score @s automaticons.item.count matches 2.. store result storage automaticons:interaction valid_count int 1 run scoreboard players operation @s automaticons.item.count.reduced -= $one automaticons.item.count
 data modify storage automaticons:interaction valid_item set from entity @s SelectedItem.id
 
 execute as @e[type=minecraft:interaction,tag=automaticon_interaction] if data entity @s interaction at @s run data modify storage automaticons:interaction return_item set from entity @e[type=armor_stand,tag=automaticon,limit=1,sort=nearest] HandItems[0].id

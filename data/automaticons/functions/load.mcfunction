@@ -5,6 +5,7 @@ scoreboard objectives add automaticons.tool.durability.current dummy
 scoreboard objectives add automaticons.tool.durability.temp dummy
 scoreboard objectives add automaticons.tool.durability.max dummy
 scoreboard objectives add automaticons.item.count dummy
+scoreboard objectives add automaticons.item.count.reduced dummy
 
 scoreboard players add $anim_clock automaticons.animations 0
 scoreboard players set $one automaticons.item.count 1
