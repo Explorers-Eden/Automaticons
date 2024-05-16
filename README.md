@@ -1,12 +1,5 @@
 <img src="https://explorerseden.eu/automaticons_title.png" alt="header" width=100%>
 <br><br>
-<center>
-<img alt="Modrinth Followers" src="https://img.shields.io/modrinth/followers/JAWG0K7l?style=flat-square&logo=modrinth&logoColor=%2300AF5C&label=Followers"></a>
-<a href="https://discord.gg/f2pMggfgVv" target="_blank"><img alt="Discord" src="https://img.shields.io/discord/878270685867311164?logo=discord&logoColor=%235865F2&label=Discord&cacheSeconds=3600&link=https%3A%2F%2Fdiscord.gg%2Ff2pMggfgVv">
-</a><a href="https://explorerseden.eu" target="_blank"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fexplorerseden.eu&up_message=Click%20Me&down_message=We'll%20be%20right%20back!&label=Website&cacheSeconds=3600">
-</a><img alt="Static Badge" src="https://img.shields.io/badge/Server-play.explorerseden.eu-brightgreen">
-</center>
-<br>
 
 ## 📖 Description
 
