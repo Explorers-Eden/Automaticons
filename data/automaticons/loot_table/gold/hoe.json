@@ -17,21 +17,21 @@
                 "lore": [
                   {
                     "text": "• 96 Durability Points",
-                    "color": "#c3e6fc",
+                    "color": "gray",
                     "font": "minecraft:default",
                     "bold": false,
                     "italic": false
                   },
                   {
                     "text": "• 70% Payout Chance",
-                    "color": "#c3e6fc",
+                    "color": "gray",
                     "font": "minecraft:default",
                     "bold": false,
                     "italic": false
                   },
                   {
                     "text": "• 1-6 Items Per Payout",
-                    "color": "#c3e6fc",
+                    "color": "gray",
                     "font": "minecraft:default",
                     "bold": false,
                     "italic": false

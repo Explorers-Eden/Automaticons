@@ -1,6 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
     "category": "misc",
+    "group": "automaticon_hoe",
     "pattern": [
       "www",
       "wtw",
@@ -52,9 +53,9 @@
       "components": {
         "minecraft:max_stack_size": 1,
         "minecraft:lore": [
-          "{\"bold\":false,\"color\":\"#C3E6FC\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 32 Durability Points\"}",
-          "{\"bold\":false,\"color\":\"#C3E6FC\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 50% Payout Chance\"}",
-          "{\"bold\":false,\"color\":\"#C3E6FC\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 1-2 Items Per Payout\"}"
+          "{\"bold\":false,\"color\":\"gray\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 32 Durability Points\"}",
+          "{\"bold\":false,\"color\":\"gray\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 50% Payout Chance\"}",
+          "{\"bold\":false,\"color\":\"gray\",\"font\":\"minecraft:default\",\"italic\":false,\"text\":\"• 1-2 Items Per Payout\"}"
         ],
         "minecraft:custom_model_data": 130502,
         "minecraft:item_name": "{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Hoe Automaticon\"}",
