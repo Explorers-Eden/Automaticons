@@ -1,0 +1,43 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:knowledge_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:recipes": [
+                    "automaticons:shovel_wood",
+                    "automaticons:sword_wood",
+                    "automaticons:hoe_wood",
+                    "automaticons:axe_wood",
+                    "automaticons:pickaxe_wood"
+                  ],
+                  "minecraft:item_name": "[{\"bold\":false,\"color\":\"#FFE59D\",\"italic\":false,\"text\":\"Recipe Book: \"},{\"bold\":false,\"color\":\"white\",\"italic\":false,\"text\":\"Wood Automaticons\"}]"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "• Unlocks a crafting recipe",
+                    "color": "gray",
+                    "font": "minecraft:default",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
