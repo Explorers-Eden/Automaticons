@@ -13,7 +13,7 @@ execute if score $chestplate_material automaticons.technical matches 8 run data 
 execute if score $chestplate_material automaticons.technical matches 9 run data modify storage automaticons:appearence chestplate_material set value amethyst
 execute if score $chestplate_material automaticons.technical matches 10 run data modify storage automaticons:appearence chestplate_material set value quartz
 
-execute store result score $chestplate_trim automaticons.technical run random value 1..16
+execute store result score $chestplate_trim automaticons.technical run random value 1..18
 execute if score $chestplate_trim automaticons.technical matches 1 run data modify storage automaticons:appearence chestplate_trim set value coast
 execute if score $chestplate_trim automaticons.technical matches 2 run data modify storage automaticons:appearence chestplate_trim set value dune
 execute if score $chestplate_trim automaticons.technical matches 3 run data modify storage automaticons:appearence chestplate_trim set value eye
@@ -30,3 +30,5 @@ execute if score $chestplate_trim automaticons.technical matches 13 run data mod
 execute if score $chestplate_trim automaticons.technical matches 14 run data modify storage automaticons:appearence chestplate_trim set value ward
 execute if score $chestplate_trim automaticons.technical matches 15 run data modify storage automaticons:appearence chestplate_trim set value wayfinder
 execute if score $chestplate_trim automaticons.technical matches 16 run data modify storage automaticons:appearence chestplate_trim set value wild
+execute if score $chestplate_trim automaticons.technical matches 17 run data modify storage automaticons:appearence boots_trim set value flow
+execute if score $chestplate_trim automaticons.technical matches 18 run data modify storage automaticons:appearence boots_trim set value bolt
