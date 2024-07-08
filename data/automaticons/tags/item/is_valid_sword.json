@@ -43,10 +43,11 @@
       "minecraft:experience_bottle",
       "minecraft:string",
       "minecraft:white_wool",
-      "minecraft:iron_ingot",
+      "minecraft:iron_nugget",
       "minecraft:wither_rose",
       "minecraft:redstone",
       "minecraft:ender_pearl",
+      "minecraft:wind_charge",
       "minecraft:gold_nugget"
     ]
   }
