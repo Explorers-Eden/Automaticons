@@ -15,7 +15,6 @@
       "announce_to_chat": false,
       "hidden": false
     },
-    "parent": "eden:root",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:tick"
