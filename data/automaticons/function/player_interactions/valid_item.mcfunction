@@ -1,7 +1,7 @@
 data modify storage automaticons:interaction valid_item set from entity @s SelectedItem.id
 
-execute as @e[type=minecraft:interaction,tag=automaticon_interaction] if data entity @s interaction at @s run data modify storage automaticons:interaction return_item set from entity @e[type=armor_stand,tag=automaticon,limit=1,sort=nearest] HandItems[0].id
-execute as @e[type=minecraft:interaction,tag=automaticon_interaction] if data entity @s interaction at @s store result score $holding_item automaticons.technical run data get entity @e[type=armor_stand,tag=automaticon,limit=1,sort=nearest] HandItems[0].count
+execute as @e[type=minecraft:interaction,tag=automaticon_interaction] if data entity @s interaction at @s run data modify storage automaticons:interaction return_item set from entity @n[type=armor_stand,tag=automaticon] HandItems[0].id
+execute as @e[type=minecraft:interaction,tag=automaticon_interaction] if data entity @s interaction at @s store result score $holding_item automaticons.technical run data get entity @n[type=armor_stand,tag=automaticon] HandItems[0].count
 execute if score $holding_item automaticons.technical matches 1.. run function automaticons:player_interactions/holding_check with storage automaticons:interaction
 execute if score $holding_item automaticons.technical matches 0 run function automaticons:player_interactions/give_item with storage automaticons:interaction
 
