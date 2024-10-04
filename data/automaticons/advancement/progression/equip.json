@@ -1,19 +1,24 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:oak_log"
-      },
-      "title": "Take That",
-      "description": "Equip an Automaticon with an item",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_log"
     },
-    "parent": "automaticons:progression/root",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
-      }
+    "title": {
+      "translate": "automaticons.advancement.title.equip",
+      "fallback": "Take That"
+    },
+    "description": {
+      "translate": "automaticons.advancement.desc.equip",
+      "fallback": "Equip an Automaticon with an item"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "automaticons:progression/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
   }
-  
+}

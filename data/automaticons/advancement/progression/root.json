@@ -1,53 +1,58 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:chest"
-      },
-      "title": "Automaticons",
-      "description": "Farming Made Fun!",
-      "background": "minecraft:textures/block/cherry_planks.png",
-      "show_toast": false,
-      "announce_to_chat": false,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
     },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:tick"
-      }
+    "title": {
+      "translate": "automaticons.advancement.title.root",
+      "fallback": "Automaticons"
     },
-    "rewards": {
-      "recipes": [
-        "automaticons:axe_diamond",
-        "automaticons:axe_gold",
-        "automaticons:axe_iron",
-        "automaticons:axe_netherite",
-        "automaticons:axe_stone",
-        "automaticons:axe_wood",
-        "automaticons:hoe_diamond",
-        "automaticons:hoe_gold",
-        "automaticons:hoe_iron",
-        "automaticons:hoe_netherite",
-        "automaticons:hoe_stone",
-        "automaticons:hoe_wood",
-        "automaticons:pickaxe_diamond",
-        "automaticons:pickaxe_gold",
-        "automaticons:pickaxe_iron",
-        "automaticons:pickaxe_netherite",
-        "automaticons:pickaxe_stone",
-        "automaticons:pickaxe_wood",
-        "automaticons:shovel_diamond",
-        "automaticons:shovel_gold",
-        "automaticons:shovel_iron",
-        "automaticons:shovel_netherite",
-        "automaticons:shovel_stone",
-        "automaticons:shovel_wood",
-        "automaticons:sword_diamond",
-        "automaticons:sword_gold",
-        "automaticons:sword_iron",
-        "automaticons:sword_netherite",
-        "automaticons:sword_stone",
-        "automaticons:sword_wood"
-      ]
+    "description": {
+      "translate": "automaticons.advancement.desc.root",
+      "fallback": "Farming Made Fun!"
+    },
+    "background": "minecraft:textures/block/cherry_planks.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
     }
+  },
+  "rewards": {
+    "recipes": [
+      "automaticons:wood/axe",
+      "automaticons:wood/hoe",
+      "automaticons:wood/pickaxe",
+      "automaticons:wood/shovel",
+      "automaticons:wood/sword",
+      "automaticons:stone/axe",
+      "automaticons:stone/hoe",
+      "automaticons:stone/pickaxe",
+      "automaticons:stone/shovel",
+      "automaticons:stone/sword",
+      "automaticons:gold/axe",
+      "automaticons:gold/hoe",
+      "automaticons:gold/pickaxe",
+      "automaticons:gold/shovel",
+      "automaticons:gold/sword",
+      "automaticons:iron/axe",
+      "automaticons:iron/hoe",
+      "automaticons:iron/pickaxe",
+      "automaticons:iron/shovel",
+      "automaticons:iron/sword",
+      "automaticons:diamond/axe",
+      "automaticons:diamond/hoe",
+      "automaticons:diamond/pickaxe",
+      "automaticons:diamond/shovel",
+      "automaticons:diamond/sword",
+      "automaticons:netherite/axe",
+      "automaticons:netherite/hoe",
+      "automaticons:netherite/pickaxe",
+      "automaticons:netherite/shovel",
+      "automaticons:netherite/sword"
+    ]
   }
-  
+}

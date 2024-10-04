@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "automaticon_pickaxe",
+    "pattern": [
+      "www",
+      "wtw",
+      "sss"
+    ],
+    "key": {
+      "s": {
+        "item": "minecraft:smooth_stone_slab"
+      },
+      "t": {
+        "item": "minecraft:diamond_pickaxe"
+      },
+      "w": [
+        {
+          "item": "minecraft:diamond_block"
+        }
+      ]
+    },
+    "result": {
+      "id": "minecraft:armor_stand",
+      "count": 1,
+      "components": {
+        "minecraft:max_stack_size": 1,
+        "minecraft:rarity": "uncommon",
+        "minecraft:lore": [
+          "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 160 Durability Points\",\"translate\":\"automaticons.diamond.durability\"}",
+          "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-10 Items Per Payout\",\"translate\":\"automaticons.diamond.amount\"}"
+        ],
+        "minecraft:item_name": "{\"fallback\":\"Diamond Pickaxe Automaticon\",\"translate\":\"automaticons.diamond.pickaxe\"}",
+        "minecraft:custom_model_data": 130523,
+        "minecraft:entity_data": 
+        {
+          "id": "minecraft:armor_stand",
+          "Small": 1,
+          "Invulnerable": 1,
+          "ShowArms": 1,
+          "Marker": 1,
+          "NoBasePlate": 1,
+          "Tags": [
+            "pickaxe_diamond_tier",
+            "automaticon",
+            "ac_pickaxe"
+        ],
+          "HandItems": [
+            {
+          },
+          {
+            "id": "minecraft:diamond_pickaxe",
+            "count": 1
+            }
+        ]
+        }
+      }
+    }
+  }
+  

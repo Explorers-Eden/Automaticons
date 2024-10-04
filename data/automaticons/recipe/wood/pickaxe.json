@@ -1,0 +1,86 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "automaticon_pickaxe",
+    "pattern": [
+      "www",
+      "wtw",
+      "sss"
+    ],
+    "key": {
+      "s": {
+        "item": "minecraft:smooth_stone_slab"
+      },
+      "t": {
+        "item": "minecraft:wooden_pickaxe"
+      },
+      "w": [
+        {
+          "item": "minecraft:oak_wood"
+        },
+        {
+          "item": "minecraft:acacia_wood"
+        },
+        {
+          "item": "minecraft:birch_wood"
+        },
+        {
+          "item": "minecraft:cherry_wood"
+        },
+        {
+          "item": "minecraft:dark_oak_wood"
+        },
+        {
+          "item": "minecraft:jungle_wood"
+        },
+        {
+          "item": "minecraft:mangrove_wood"
+        },
+        {
+          "item": "minecraft:spruce_wood"
+        },
+        {
+          "item": "minecraft:crimson_hyphae"
+        },
+        {
+          "item": "minecraft:warped_hyphae"
+        }
+      ]
+    },
+    "result": {
+      "id": "minecraft:armor_stand",
+      "count": 1,
+      "components": {
+        "minecraft:max_stack_size": 1,
+        "minecraft:lore": [
+          "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 32 Durability Points\",\"translate\":\"automaticons.wooden.durability\"}",
+          "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-2 Items Per Payout\",\"translate\":\"automaticons.wooden.amount\"}"
+        ],
+        "minecraft:item_name": "{\"fallback\":\"Wooden Pickaxe Automaticon\",\"translate\":\"automaticons.wooden.pickaxe\"}",
+        "minecraft:custom_model_data": 130503,
+        "minecraft:entity_data": 
+        {
+          "id": "minecraft:armor_stand",
+          "Small": 1,
+          "Invulnerable": 1,
+          "ShowArms": 1,
+          "Marker": 1,
+          "NoBasePlate": 1,
+          "Tags": [
+            "pickaxe_wood_tier",
+            "automaticon",
+            "ac_pickaxe"
+        ],
+          "HandItems": [
+            {
+          },
+          {
+            "id": "minecraft:wooden_pickaxe",
+            "count": 1
+            }
+        ]
+        }
+      }
+    }
+  }
+  

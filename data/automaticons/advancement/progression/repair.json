@@ -1,19 +1,24 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:diamond_pickaxe"
-      },
-      "title": "Can We Fix It !?",
-      "description": "Repair an Automaticon by giving it a tool",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
     },
-    "parent": "automaticons:progression/root",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
-      }
+    "title": {
+      "translate": "automaticons.advancement.title.repair",
+      "fallback": "Can We Fix It !?"
+    },
+    "description": {
+      "translate": "automaticons.advancement.desc.repair",
+      "fallback": "Repair an Automaticon by giving it a tool"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "automaticons:progression/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
   }
-  
+}

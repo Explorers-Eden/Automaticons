@@ -1,0 +1,62 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "automaticon_sword",
+    "pattern": [
+      "www",
+      "wtw",
+      "sss"
+    ],
+    "key": {
+      "s": {
+        "item": "minecraft:smooth_stone_slab"
+      },
+      "t": {
+        "item": "minecraft:iron_sword"
+      },
+      "w": [
+        {
+          "item": "minecraft:iron_block"
+        },
+        {
+          "item": "minecraft:raw_iron_block"
+        }
+      ]
+    },
+    "result": {
+      "id": "minecraft:armor_stand",
+      "count": 1,
+      "components": {
+        "minecraft:max_stack_size": 1,
+        "minecraft:lore": [
+          "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 128 Durability Points\",\"translate\":\"automaticons.iron.durability\"}",
+          "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-8 Items Per Payout\",\"translate\":\"automaticons.iron.amount\"}"
+        ],
+        "minecraft:item_name": "{\"fallback\":\"Iron Sword Automaticon\",\"translate\":\"automaticons.iron.sword\"}",
+        "minecraft:custom_model_data": 130520,
+        "minecraft:entity_data": 
+        {
+          "id": "minecraft:armor_stand",
+          "Small": 1,
+          "Invulnerable": 1,
+          "ShowArms": 1,
+          "Marker": 1,
+          "NoBasePlate": 1,
+          "Tags": [
+            "sword_iron_tier",
+            "automaticon",
+            "ac_sword"
+        ],
+          "HandItems": [
+            {
+          },
+          {
+            "id": "minecraft:iron_sword",
+            "count": 1
+            }
+        ]
+        }
+      }
+    }
+  }
+  
