@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/armor_stand"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 130501}, "model": "misc:item/automaticon_wooden_axe"},
+    {"predicate": {"custom_model_data": 130502}, "model": "misc:item/automaticon_wooden_hoe"},
+    {"predicate": {"custom_model_data": 130503}, "model": "misc:item/automaticon_wooden_pickaxe"},
+    {"predicate": {"custom_model_data": 130504}, "model": "misc:item/automaticon_wooden_shovel"},
+    {"predicate": {"custom_model_data": 130505}, "model": "misc:item/automaticon_wooden_sword"},
+    {"predicate": {"custom_model_data": 130506}, "model": "misc:item/automaticon_stone_axe"},
+    {"predicate": {"custom_model_data": 130507}, "model": "misc:item/automaticon_stone_hoe"},
+    {"predicate": {"custom_model_data": 130508}, "model": "misc:item/automaticon_stone_pickaxe"},
+    {"predicate": {"custom_model_data": 130509}, "model": "misc:item/automaticon_stone_shovel"},
+    {"predicate": {"custom_model_data": 130510}, "model": "misc:item/automaticon_stone_sword"},
+    {"predicate": {"custom_model_data": 130511}, "model": "misc:item/automaticon_gold_axe"},
+    {"predicate": {"custom_model_data": 130512}, "model": "misc:item/automaticon_gold_hoe"},
+    {"predicate": {"custom_model_data": 130513}, "model": "misc:item/automaticon_gold_pickaxe"},
+    {"predicate": {"custom_model_data": 130514}, "model": "misc:item/automaticon_gold_shovel"},
+    {"predicate": {"custom_model_data": 130515}, "model": "misc:item/automaticon_gold_sword"},
+    {"predicate": {"custom_model_data": 130516}, "model": "misc:item/automaticon_iron_axe"},
+    {"predicate": {"custom_model_data": 130517}, "model": "misc:item/automaticon_iron_hoe"},
+    {"predicate": {"custom_model_data": 130518}, "model": "misc:item/automaticon_iron_pickaxe"},
+    {"predicate": {"custom_model_data": 130519}, "model": "misc:item/automaticon_iron_shovel"},
+    {"predicate": {"custom_model_data": 130520}, "model": "misc:item/automaticon_iron_sword"},
+    {"predicate": {"custom_model_data": 130521}, "model": "misc:item/automaticon_diamond_axe"},
+    {"predicate": {"custom_model_data": 130522}, "model": "misc:item/automaticon_diamond_hoe"},
+    {"predicate": {"custom_model_data": 130523}, "model": "misc:item/automaticon_diamond_pickaxe"},
+    {"predicate": {"custom_model_data": 130524}, "model": "misc:item/automaticon_diamond_shovel"},
+    {"predicate": {"custom_model_data": 130525}, "model": "misc:item/automaticon_diamond_sword"},
+    {"predicate": {"custom_model_data": 130526}, "model": "misc:item/automaticon_netherite_axe"},
+    {"predicate": {"custom_model_data": 130527}, "model": "misc:item/automaticon_netherite_hoe"},
+    {"predicate": {"custom_model_data": 130528}, "model": "misc:item/automaticon_netherite_pickaxe"},
+    {"predicate": {"custom_model_data": 130529}, "model": "misc:item/automaticon_netherite_shovel"},
+    {"predicate": {"custom_model_data": 130530}, "model": "misc:item/automaticon_netherite_sword"}
+  ]
+}
