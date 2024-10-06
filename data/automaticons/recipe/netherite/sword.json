@@ -8,17 +8,9 @@
       "sss"
     ],
     "key": {
-      "s": {
-        "item": "minecraft:smooth_stone_slab"
-      },
-      "t": {
-        "item": "minecraft:netherite_sword"
-      },
-      "w": [
-        {
-          "item": "minecraft:netherite_upgrade_smithing_template"
-        }
-      ]
+      "s": "minecraft:smooth_stone_slab",
+      "t": "minecraft:netherite_sword",
+      "w": "minecraft:netherite_upgrade_smithing_template"
     },
     "result": {
       "id": "minecraft:armor_stand",

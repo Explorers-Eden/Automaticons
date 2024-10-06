@@ -8,37 +8,17 @@
       "sss"
     ],
     "key": {
-      "s": {
-        "item": "minecraft:smooth_stone_slab"
-      },
-      "t": {
-        "item": "minecraft:stone_shovel"
-      },
+      "s": "minecraft:smooth_stone_slab",
+      "t": "minecraft:stone_shovel",
       "w": [
-        {
-          "item": "minecraft:stone"
-        },
-        {
-          "item": "minecraft:blackstone"
-        },
-        {
-          "item": "minecraft:deepslate"
-        },
-        {
-          "item": "minecraft:andesite"
-        },
-        {
-          "item": "minecraft:granite"
-        },
-        {
-          "item": "minecraft:diorite"
-        },
-        {
-          "item": "minecraft:tuff"
-        },
-        {
-          "item": "minecraft:basalt"
-        }
+        "minecraft:stone",
+        "minecraft:blackstone",
+        "minecraft:deepslate",
+        "minecraft:andesite",
+        "minecraft:granite",
+        "minecraft:diorite",
+        "minecraft:tuff",
+        "minecraft:basalt"
       ]
     },
     "result": {

@@ -8,43 +8,19 @@
       "sss"
     ],
     "key": {
-      "s": {
-        "item": "minecraft:smooth_stone_slab"
-      },
-      "t": {
-        "item": "minecraft:wooden_pickaxe"
-      },
+      "s": "minecraft:smooth_stone_slab",
+      "t": "minecraft:wooden_pickaxe",
       "w": [
-        {
-          "item": "minecraft:oak_wood"
-        },
-        {
-          "item": "minecraft:acacia_wood"
-        },
-        {
-          "item": "minecraft:birch_wood"
-        },
-        {
-          "item": "minecraft:cherry_wood"
-        },
-        {
-          "item": "minecraft:dark_oak_wood"
-        },
-        {
-          "item": "minecraft:jungle_wood"
-        },
-        {
-          "item": "minecraft:mangrove_wood"
-        },
-        {
-          "item": "minecraft:spruce_wood"
-        },
-        {
-          "item": "minecraft:crimson_hyphae"
-        },
-        {
-          "item": "minecraft:warped_hyphae"
-        }
+        "minecraft:oak_wood",
+        "minecraft:acacia_wood",
+        "minecraft:birch_wood",
+        "minecraft:cherry_wood",
+        "minecraft:dark_oak_wood",
+        "minecraft:jungle_wood",
+        "minecraft:mangrove_wood",
+        "minecraft:spruce_wood",
+        "minecraft:crimson_hyphae",
+        "minecraft:warped_hyphae"
       ]
     },
     "result": {

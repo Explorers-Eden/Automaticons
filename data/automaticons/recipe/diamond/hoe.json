@@ -8,17 +8,9 @@
       "sss"
     ],
     "key": {
-      "s": {
-        "item": "minecraft:smooth_stone_slab"
-      },
-      "t": {
-        "item": "minecraft:diamond_hoe"
-      },
-      "w": [
-        {
-          "item": "minecraft:diamond_block"
-        }
-      ]
+      "s": "minecraft:smooth_stone_slab",
+      "t": "minecraft:diamond_hoe",
+      "w": "minecraft:diamond_block"
     },
     "result": {
       "id": "minecraft:armor_stand",

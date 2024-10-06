@@ -8,19 +8,11 @@
       "sss"
     ],
     "key": {
-      "s": {
-        "item": "minecraft:smooth_stone_slab"
-      },
-      "t": {
-        "item": "minecraft:golden_sword"
-      },
+      "s": "minecraft:smooth_stone_slab",
+      "t": "minecraft:golden_sword",
       "w": [
-        {
-          "item": "minecraft:gold_block"
-        },
-        {
-          "item": "minecraft:raw_gold_block"
-        }
+        "minecraft:gold_block",
+        "minecraft:raw_gold_block"
       ]
     },
     "result": {
