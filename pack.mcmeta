@@ -1,11 +1,11 @@
 {
-	"pack": {
-		"pack_format": 56,
-		"description": [
-			{
-				"text": "Automaticons by NiceRon",
-				"color": "white"
-			}
-		]
-	}
+  "pack": {
+    "pack_format": 57,
+    "description": [
+      {
+        "text": "Nice Blockhead Mobs by NiceRon",
+        "color": "white"
+      }
+    ]
+  }
 }
