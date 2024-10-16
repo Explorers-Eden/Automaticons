@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "automaticons.advancement.title.root",
+      "fallback": "Automaticons"
+    },
+    "description": {
+      "translate": "automaticons.advancement.desc.root",
+      "fallback": "Farming Made Fun!"
+    },
+    "background": "minecraft:textures/block/cherry_planks.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:automaticons/wood/axe",
+      "minecraft:automaticons/wood/hoe",
+      "minecraft:automaticons/wood/pickaxe",
+      "minecraft:automaticons/wood/shovel",
+      "minecraft:automaticons/wood/sword",
+      "minecraft:automaticons/stone/axe",
+      "minecraft:automaticons/stone/hoe",
+      "minecraft:automaticons/stone/pickaxe",
+      "minecraft:automaticons/stone/shovel",
+      "minecraft:automaticons/stone/sword",
+      "minecraft:automaticons/gold/axe",
+      "minecraft:automaticons/gold/hoe",
+      "minecraft:automaticons/gold/pickaxe",
+      "minecraft:automaticons/gold/shovel",
+      "minecraft:automaticons/gold/sword",
+      "minecraft:automaticons/iron/axe",
+      "minecraft:automaticons/iron/hoe",
+      "minecraft:automaticons/iron/pickaxe",
+      "minecraft:automaticons/iron/shovel",
+      "minecraft:automaticons/iron/sword",
+      "minecraft:automaticons/diamond/axe",
+      "minecraft:automaticons/diamond/hoe",
+      "minecraft:automaticons/diamond/pickaxe",
+      "minecraft:automaticons/diamond/shovel",
+      "minecraft:automaticons/diamond/sword",
+      "minecraft:automaticons/netherite/axe",
+      "minecraft:automaticons/netherite/hoe",
+      "minecraft:automaticons/netherite/pickaxe",
+      "minecraft:automaticons/netherite/shovel",
+      "minecraft:automaticons/netherite/sword"
+    ]
+  }
+}
