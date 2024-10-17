@@ -5,23 +5,23 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "automaticons:stone/sword"
+          "value": "eden:automaticons/netherite/sword"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "automaticons:stone/shovel"
+          "value": "eden:automaticons/netherite/shovel"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "automaticons:stone/pickaxe"
+          "value": "eden:automaticons/netherite/pickaxe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "automaticons:stone/hoe"
+          "value": "eden:automaticons/netherite/hoe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "automaticons:stone/axe"
+          "value": "eden:automaticons/netherite/axe"
         }
       ]
     }

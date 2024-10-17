@@ -5,23 +5,23 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "automaticons:wood/sword"
+          "value": "eden:automaticons/stone/sword"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "automaticons:wood/shovel"
+          "value": "eden:automaticons/stone/shovel"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "automaticons:wood/pickaxe"
+          "value": "eden:automaticons/stone/pickaxe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "automaticons:wood/hoe"
+          "value": "eden:automaticons/stone/hoe"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "automaticons:wood/axe"
+          "value": "eden:automaticons/stone/axe"
         }
       ]
     }

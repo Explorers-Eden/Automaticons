@@ -1,7 +1,7 @@
 scoreboard players add @e[type=armor_stand,tag=automaticon] automaticons.animations 0
 
 execute as @e[type=armor_stand,tag=automaticon] at @s unless score @s automaticons.animations matches 0 if score $anim_clock automaticons.animations matches 31.. run scoreboard players set @s automaticons.animations 0
-execute as @e[type=armor_stand,tag=automaticon] at @s if score @s automaticons.animations matches 0 if score $anim_clock automaticons.animations matches 31.. if predicate automaticons:percentages/15percent store result score @s automaticons.animations run random value 1..7
+execute as @e[type=armor_stand,tag=automaticon] at @s if score @s automaticons.animations matches 0 if score $anim_clock automaticons.animations matches 31.. if predicate eden:percentages/15 store result score @s automaticons.animations run random value 1..7
 
 execute as @e[type=armor_stand,tag=automaticon] at @s if score @s automaticons.animations matches 1..3 run function automaticons:animations/breathing
 execute as @e[type=armor_stand,tag=automaticon] at @s if score @s automaticons.animations matches 4 run function automaticons:animations/kicking_1

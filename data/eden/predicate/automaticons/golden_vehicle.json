@@ -11,7 +11,7 @@
               "nbt": "{Tags:[\"automaticon\"]}",
               "equipment": {
                 "offhand": {
-                  "items": "#automaticons:is_wooden_tool"
+                  "items": "#eden:automaticons/is_golden_tool"
                 }
               }
             }
