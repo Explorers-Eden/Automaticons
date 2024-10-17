@@ -5,27 +5,27 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "eden:automaticons/wood_tier"
+            "value": "eden:item/automaticons/wood_tier"
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:automaticons/stone_tier"
+            "value": "eden:item/automaticons/stone_tier"
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:automaticons/gold_tier"
+            "value": "eden:item/automaticons/gold_tier"
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:automaticons/iron_tier"
+            "value": "eden:item/automaticons/iron_tier"
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:automaticons/diamond_tier"
+            "value": "eden:item/automaticons/diamond_tier"
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:automaticons/netherite_tier"
+            "value": "eden:item/automaticons/netherite_tier"
           }
         ]
       }
