@@ -33,7 +33,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 130513,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    130513
+                  ]
+                },
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Golden Pickaxe Automaticon\",\"translate\":\"automaticons.golden.pickaxe\"}",
                 "minecraft:entity_data": {

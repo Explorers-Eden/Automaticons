@@ -23,7 +23,11 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-10 Items Per Payout\",\"translate\":\"automaticons.diamond.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Diamond Sword Automaticon\",\"translate\":\"automaticons.diamond.sword\"}",
-        "minecraft:custom_model_data": 130525,
+        "minecraft:custom_model_data": {
+          "floats": [
+            130525
+          ]
+        },
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

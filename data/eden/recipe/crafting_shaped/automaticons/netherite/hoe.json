@@ -22,7 +22,11 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-12 Items Per Payout\",\"translate\":\"automaticons.netherite.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Netherite Hoe Automaticon\",\"translate\":\"automaticons.netherite.hoe\"}",
-        "minecraft:custom_model_data": 130527,
+        "minecraft:custom_model_data": {
+          "floats": [
+            130527
+          ]
+        },
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

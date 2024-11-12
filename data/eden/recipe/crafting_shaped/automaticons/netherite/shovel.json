@@ -22,7 +22,11 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-12 Items Per Payout\",\"translate\":\"automaticons.netherite.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Netherite Shovel Automaticon\",\"translate\":\"automaticons.netherite.shovel\"}",
-        "minecraft:custom_model_data": 130529,
+        "minecraft:custom_model_data": {
+          "floats": [
+            130529
+          ]
+        },
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

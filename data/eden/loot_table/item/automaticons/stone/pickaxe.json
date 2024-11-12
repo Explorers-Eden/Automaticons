@@ -33,7 +33,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 130508,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    130508
+                  ]
+                },
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Stone Pickaxe Automaticon\",\"translate\":\"automaticons.stone.pickaxe\"}",
                 "minecraft:entity_data": {

@@ -33,7 +33,11 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-2 Items Per Payout\",\"translate\":\"automaticons.wooden.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Wooden Shovel Automaticon\",\"translate\":\"automaticons.wooden.shovel\"}",
-        "minecraft:custom_model_data": 130504,
+        "minecraft:custom_model_data": {
+          "floats": [
+            130504
+          ]
+        },
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

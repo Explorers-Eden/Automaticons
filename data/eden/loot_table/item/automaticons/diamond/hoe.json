@@ -33,7 +33,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 130522,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    130522
+                  ]
+                },
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Diamond Hoe Automaticon\",\"translate\":\"automaticons.diamond.hoe\"}",
                 "minecraft:entity_data": {

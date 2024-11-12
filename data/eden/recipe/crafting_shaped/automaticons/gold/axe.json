@@ -26,7 +26,11 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-6 Items Per Payout\",\"translate\":\"automaticons.golden.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Golden Axe Automaticon\",\"translate\":\"automaticons.golden.axe\"}",
-        "minecraft:custom_model_data": 130511,
+        "minecraft:custom_model_data": {
+          "floats": [
+            130511
+          ]
+        },
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

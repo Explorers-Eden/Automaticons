@@ -23,7 +23,11 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-10 Items Per Payout\",\"translate\":\"automaticons.diamond.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Diamond Pickaxe Automaticon\",\"translate\":\"automaticons.diamond.pickaxe\"}",
-        "minecraft:custom_model_data": 130523,
+        "minecraft:custom_model_data": {
+          "floats": [
+            130523
+          ]
+        },
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

@@ -33,7 +33,11 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 130511,
+                  "minecraft:custom_model_data": {
+                  "floats": [
+                    130511
+                  ]
+                },
                   "minecraft:max_stack_size": 1,
                   "minecraft:item_name": "{\"fallback\":\"Golden Axe Automaticon\",\"translate\":\"automaticons.golden.axe\"}",
                   "minecraft:entity_data": {

@@ -33,7 +33,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 130521,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    130521
+                  ]
+                },
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Diamond Axe Automaticon\",\"translate\":\"automaticons.diamond.axe\"}",
                 "minecraft:entity_data": {

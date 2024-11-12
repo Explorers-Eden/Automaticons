@@ -33,7 +33,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 130528,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    130528
+                  ]
+                },
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Netherite Pickaxe Automaticon\",\"translate\":\"automaticons.netherite.pickaxe\"}",
                 "minecraft:entity_data": {

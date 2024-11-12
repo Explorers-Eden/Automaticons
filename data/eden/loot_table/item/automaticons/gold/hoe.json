@@ -33,7 +33,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 130512,
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    130512
+                  ]
+                },
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Golden Hoe Automaticon\",\"translate\":\"automaticons.golden.hoe\"}",
                 "minecraft:entity_data": {
