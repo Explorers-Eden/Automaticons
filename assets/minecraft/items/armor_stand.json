@@ -4,6 +4,13 @@
     "property": "minecraft:custom_model_data",
     "entries": [
       {
+        "threshold": 10001,
+        "model": {
+          "type": "minecraft:model",
+          "model": "wawo:item/waypoint_hub"
+        }
+      },
+      {
         "threshold": 130501,
         "model": {
           "type": "minecraft:model",
