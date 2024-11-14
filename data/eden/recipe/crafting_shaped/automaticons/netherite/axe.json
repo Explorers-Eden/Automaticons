@@ -22,11 +22,7 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-12 Items Per Payout\",\"translate\":\"automaticons.netherite.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Netherite Axe Automaticon\",\"translate\":\"automaticons.netherite.axe\"}",
-        "minecraft:custom_model_data": {
-          "floats": [
-            130526
-          ]
-        },
+        "minecraft:item_model": "automaticons:netherite/axe",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

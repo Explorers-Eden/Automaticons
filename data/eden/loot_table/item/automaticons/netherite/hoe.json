@@ -33,11 +33,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    130527
-                  ]
-                },
+                "minecraft:item_model": "automaticons:netherite/hoe",
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Netherite Hoe Automaticon\",\"translate\":\"automaticons.netherite.hoe\"}",
                 "minecraft:entity_data": {

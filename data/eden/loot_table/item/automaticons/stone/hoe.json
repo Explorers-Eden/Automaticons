@@ -33,11 +33,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    130507
-                  ]
-                },
+                "minecraft:item_model": "automaticons:stone/hoe",
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Stone Hoe Automaticon\",\"translate\":\"automaticons.stone.hoe\"}",
                 "minecraft:entity_data": {

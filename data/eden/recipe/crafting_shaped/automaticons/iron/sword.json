@@ -25,11 +25,7 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-8 Items Per Payout\",\"translate\":\"automaticons.iron.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Iron Sword Automaticon\",\"translate\":\"automaticons.iron.sword\"}",
-        "minecraft:custom_model_data": {
-          "floats": [
-            130520
-          ]
-        },
+        "minecraft:item_model": "automaticons:iron/sword",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

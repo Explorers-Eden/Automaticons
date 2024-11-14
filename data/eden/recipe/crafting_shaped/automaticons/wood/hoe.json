@@ -33,11 +33,7 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-2 Items Per Payout\",\"translate\":\"automaticons.wooden.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Wooden Hoe Automaticon\",\"translate\":\"automaticons.wooden.hoe\"}",
-        "minecraft:custom_model_data": {
-          "floats": [
-            130502
-          ]
-        },
+        "minecraft:item_model": "automaticons:wood/hoe",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

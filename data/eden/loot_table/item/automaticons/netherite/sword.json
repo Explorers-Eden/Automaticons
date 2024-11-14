@@ -33,11 +33,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    130530
-                  ]
-                },
+                "minecraft:item_model": "automaticons:netherite/sword",
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Netherite Sword Automaticon\",\"translate\":\"automaticons.netherite.sword\"}",
                 "minecraft:entity_data": {

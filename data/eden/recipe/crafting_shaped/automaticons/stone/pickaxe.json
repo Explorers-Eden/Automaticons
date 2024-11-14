@@ -31,11 +31,7 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-4 Items Per Payout\",\"translate\":\"automaticons.stone.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Stone Pickaxe Automaticon\",\"translate\":\"automaticons.stone.pickaxe\"}",
-        "minecraft:custom_model_data": {
-          "floats": [
-            130508
-          ]
-        },
+        "minecraft:item_model": "automaticons:stone/pickaxe",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

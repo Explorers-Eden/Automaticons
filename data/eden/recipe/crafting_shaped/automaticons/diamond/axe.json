@@ -23,11 +23,7 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-10 Items Per Payout\",\"translate\":\"automaticons.diamond.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Diamond Axe Automaticon\",\"translate\":\"automaticons.diamond.axe\"}",
-        "minecraft:custom_model_data": {
-                  "floats": [
-                    130521
-                  ]
-                },
+        "minecraft:item_model": "automaticons:diamond/axe",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

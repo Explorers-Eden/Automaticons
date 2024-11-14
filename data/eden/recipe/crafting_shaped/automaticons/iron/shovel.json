@@ -25,11 +25,7 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-8 Items Per Payout\",\"translate\":\"automaticons.iron.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Iron Shovel Automaticon\",\"translate\":\"automaticons.iron.shovel\"}",
-        "minecraft:custom_model_data": {
-          "floats": [
-            130519
-          ]
-        },
+        "minecraft:item_model": "automaticons:iron/shovel",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

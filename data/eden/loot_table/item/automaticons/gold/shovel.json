@@ -33,11 +33,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    130514
-                  ]
-                },
+                "minecraft:item_model": "automaticons:gold/shovel",
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Golden Shovel Automaticon\",\"translate\":\"automaticons.golden.shovel\"}",
                 "minecraft:entity_data": {

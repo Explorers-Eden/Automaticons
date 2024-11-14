@@ -22,11 +22,7 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-12 Items Per Payout\",\"translate\":\"automaticons.netherite.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Netherite Sword Automaticon\",\"translate\":\"automaticons.netherite.sword\"}",
-        "minecraft:custom_model_data": {
-          "floats": [
-            130530
-          ]
-        },
+        "minecraft:item_model": "automaticons:netherite/sword",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

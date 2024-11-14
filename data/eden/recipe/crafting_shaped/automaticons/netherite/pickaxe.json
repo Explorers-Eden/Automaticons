@@ -22,11 +22,7 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-12 Items Per Payout\",\"translate\":\"automaticons.netherite.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Netherite Pickaxe Automaticon\",\"translate\":\"automaticons.netherite.pickaxe\"}",
-        "minecraft:custom_model_data": {
-          "floats": [
-            130528
-          ]
-        },
+        "minecraft:item_model": "automaticons:netherite/pickaxe",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

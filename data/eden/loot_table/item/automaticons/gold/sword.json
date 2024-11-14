@@ -33,11 +33,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    130515
-                  ]
-                },
+                "minecraft:item_model": "automaticons:gold/sword",
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Golden Sword Automaticon\",\"translate\":\"automaticons.golden.sword\"}",
                 "minecraft:entity_data": {

@@ -25,11 +25,7 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-8 Items Per Payout\",\"translate\":\"automaticons.iron.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Iron Axe Automaticon\",\"translate\":\"automaticons.iron.axe\"}",
-        "minecraft:custom_model_data": {
-          "floats": [
-            130516
-          ]
-        },
+        "minecraft:item_model": "automaticons:iron/axe",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",

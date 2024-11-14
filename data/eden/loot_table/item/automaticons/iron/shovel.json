@@ -33,11 +33,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    130519
-                  ]
-                },
+                "minecraft:item_model": "automaticons:iron/shovel",
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Iron Shovel Automaticon\",\"translate\":\"automaticons.iron.shovel\"}",
                 "minecraft:entity_data": {

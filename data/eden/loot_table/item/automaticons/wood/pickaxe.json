@@ -33,11 +33,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    130503
-                  ]
-                },
+                "minecraft:item_model": "automaticons:wood/pickaxe",
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Wooden Pickaxe Automaticon\",\"translate\":\"automaticons.wooden.pickaxe\"}",
                 "minecraft:entity_data": {

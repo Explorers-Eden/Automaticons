@@ -33,11 +33,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    130520
-                  ]
-                },
+                "minecraft:item_model": "automaticons:iron/sword",
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "{\"fallback\":\"Iron Sword Automaticon\",\"translate\":\"automaticons.iron.sword\"}",
                 "minecraft:entity_data": {

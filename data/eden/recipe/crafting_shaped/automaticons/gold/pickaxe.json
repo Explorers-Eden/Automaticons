@@ -25,11 +25,7 @@
           "{\"italic\":false,\"color\":\"gray\",\"fallback\":\"• 1-6 Items Per Payout\",\"translate\":\"automaticons.golden.amount\"}"
         ],
         "minecraft:item_name": "{\"fallback\":\"Golden Pickaxe Automaticon\",\"translate\":\"automaticons.golden.pickaxe\"}",
-        "minecraft:custom_model_data": {
-          "floats": [
-            130513
-          ]
-        },
+        "minecraft:item_model": "automaticons:gold/pickaxe",
         "minecraft:entity_data": 
         {
           "id": "minecraft:armor_stand",
