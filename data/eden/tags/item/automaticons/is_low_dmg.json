@@ -54,6 +54,8 @@
       "minecraft:coal",
       "minecraft:amethyst_shard",
       "minecraft:moss_block",
+      "minecraft:pale_moss_block",
+      "minecraft:pale_hanging_moss",
       "minecraft:crimson_fungus",
       "minecraft:warped_fungus",
       "minecraft:short_grass",
@@ -91,7 +93,8 @@
       "minecraft:sea_pickle",
       "minecraft:kelp",
       "minecraft:sculk",
-      "minecraft:sculk_vein"
+      "minecraft:sculk_vein",
+      "minecraft:resin_clump"
     ]
   }
   

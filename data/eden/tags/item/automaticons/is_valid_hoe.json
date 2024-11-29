@@ -1,6 +1,8 @@
 {
     "values": [
       "minecraft:moss_block",
+      "minecraft:pale_moss_block",
+      "minecraft:pale_hanging_moss",
       "minecraft:oak_leaves",
       "minecraft:spruce_leaves",
       "minecraft:birch_leaves",
