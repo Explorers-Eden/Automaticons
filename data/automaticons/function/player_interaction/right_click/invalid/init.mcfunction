@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:interaction,tag=automaticon.interaction,distance=..16] if data entity @s interaction at @s run function automaticons:player_interaction/right_click/invalid/exec

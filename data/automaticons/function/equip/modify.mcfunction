@@ -1,0 +1,4 @@
+$data modify entity @s equipment.feet set value {id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":$(color_feet),trim:{material:"minecraft:$(trim_material_feet)",pattern:"minecraft:$(trim_pattern_feet)"}}}
+$data modify entity @s equipment.legs set value {id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":$(color_legs),trim:{material:"minecraft:$(trim_material_legs)",pattern:"minecraft:$(trim_pattern_legs)"}}}
+$data modify entity @s equipment.chest set value {id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":$(color_chest),trim:{material:"minecraft:$(trim_material_chest)",pattern:"minecraft:$(trim_pattern_chest)"}}}
+$data modify entity @s equipment.head set value {id:"minecraft:player_head",count:1,components:{profile:{name:"Automaticon",properties:[{name:"textures",value:"$(head)"}]}}}

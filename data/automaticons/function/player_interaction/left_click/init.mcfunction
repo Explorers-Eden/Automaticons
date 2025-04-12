@@ -1,0 +1,2 @@
+advancement revoke @s only automaticons:left_click
+execute as @e[type=minecraft:interaction,tag=automaticon.interaction,distance=..16] if data entity @s attack at @s run function automaticons:player_interaction/left_click/exec

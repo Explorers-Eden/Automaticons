@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:interaction,tag=automaticon.interaction,distance=..16] if data entity @s interaction at @s on vehicle run execute if items entity @s weapon.offhand * run return run function automaticons:player_interaction/right_click/no_item/offhand
+execute as @e[type=minecraft:interaction,tag=automaticon.interaction,distance=..16] if data entity @s interaction at @s on vehicle run execute if items entity @s weapon.mainhand * run return run function automaticons:player_interaction/right_click/no_item/mainhand

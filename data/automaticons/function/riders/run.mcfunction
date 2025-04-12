@@ -1,5 +1,0 @@
-execute as @e[type=armor_stand,tag=!automaticons_mounted] if items entity @s weapon.offhand #minecraft:swords at @s run function automaticons:riders/sword_get_data
-execute as @e[type=armor_stand,tag=!automaticons_mounted] if items entity @s weapon.offhand #minecraft:shovels at @s run function automaticons:riders/shovel_get_data
-execute as @e[type=armor_stand,tag=!automaticons_mounted] if items entity @s weapon.offhand #minecraft:pickaxes at @s run function automaticons:riders/pickaxe_get_data
-execute as @e[type=armor_stand,tag=!automaticons_mounted] if items entity @s weapon.offhand #minecraft:hoes at @s run function automaticons:riders/hoe_get_data
-execute as @e[type=armor_stand,tag=!automaticons_mounted] if items entity @s weapon.offhand #minecraft:axes at @s run function automaticons:riders/axe_get_data

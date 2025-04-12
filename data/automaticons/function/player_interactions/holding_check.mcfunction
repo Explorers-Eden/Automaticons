@@ -1,1 +1,0 @@
-$execute unless items entity @s weapon.mainhand $(return_item) run function automaticons:player_interactions/return_item with storage automaticons:interaction
