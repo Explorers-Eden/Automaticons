@@ -6,7 +6,7 @@ summon text_display ~ ~ ~ {alignment:"center",billboard:"fixed",shadow:1b,Tags:[
 ride @n[type=text_display,tag=automaticon.timer,tag=!is_mounted,distance=..3] mount @n[type=interaction,tag=automaticon.interaction,tag=!is_mounted,distance=..3]
 execute store result entity @n[type=text_display,tag=automaticon.timer,tag=!is_mounted,distance=..3] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
 
-summon text_display ~ ~ ~ {alignment:"center",billboard:"fixed",shadow:1b,Tags:["automaticon.durability"],text_opacity:216,transformation:{left_rotation:[-.1f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-1f,.1f],scale:[.3f,.3f,.3f]},text:{"text":"Durability: N/A","color":"gray","bold":false,"italic":false},background:16711680}
+summon text_display ~ ~ ~ {alignment:"center",billboard:"fixed",shadow:1b,Tags:["automaticon.durability"],text_opacity:216,transformation:{left_rotation:[-.1f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-1f,.1f],scale:[.3f,.3f,.3f]},text:{"text":"Durability: -/-","color":"gray","bold":false,"italic":false},background:16711680}
 ride @n[type=text_display,tag=automaticon.durability,tag=!is_mounted,distance=..3] mount @n[type=text_display,tag=automaticon.timer,tag=!is_mounted,distance=..3]
 execute store result entity @n[type=text_display,tag=automaticon.durability,tag=!is_mounted,distance=..3] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
 

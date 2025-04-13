@@ -1,9 +1,10 @@
 {
     "values": [
-      "#minecraft:axes",
-      "#minecraft:pickaxes",
-      "#minecraft:shovels",
-      "#minecraft:hoes",
-      "#minecraft:swords"
+      "#eden:diamond_tools",
+      "#eden:golden_tools",
+      "#eden:netherite_tools",
+      "#eden:stone_tools",
+      "#eden:iron_tools",
+      "#eden:wooden_tools"
     ]
   }

@@ -1,0 +1,1 @@
+$data modify entity @s text set value {"text":"Durability: $(damage)/$(max_damage)","color":"gray","bold":false,"italic":false}
