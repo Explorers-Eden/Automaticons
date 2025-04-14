@@ -1,4 +1,4 @@
-particle minecraft:poof ~ ~ ~ .1 .5 .1 .05 20
+particle minecraft:poof ~ ~.5 ~ .3 .5 .3 .05 20
 playsound minecraft:entity.villager.death neutral @a ~ ~ ~ .5 1.5
 
 execute on vehicle positioned ~ ~.5 ~ run function automaticons:player_interaction/left_click/item/automaticon
