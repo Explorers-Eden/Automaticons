@@ -1,0 +1,2 @@
+function automaticons:player_interaction/right_click/tool/dmg_data/max_damage
+function automaticons:player_interaction/right_click/tool/dmg_data/damage

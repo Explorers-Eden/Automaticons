@@ -1,0 +1,2 @@
+$execute if data entity @s equipment.mainhand.components."minecraft:damage" run return run data modify entity @s equipment.mainhand.components."minecraft:damage" set value $(tool_damage)
+$execute unless data entity @s equipment.mainhand.components."minecraft:damage" run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:damage":$(tool_damage)}}

@@ -1,4 +1,4 @@
-execute if data entity @s SelectedItem.components."minecraft:max_damage" run return run data modify storage eden:temp automaticons.advancement.max_damage set from entity @s SelectedItem.components."minecraft:max_damage"
+execute if data entity @s equipment.mainhand.components."minecraft:max_damage" run return run data modify storage eden:temp automaticons.advancement.max_damage set from entity @s equipment.mainhand.components."minecraft:max_damage"
 
 execute if items entity @s weapon.mainhand #eden:wooden_tools run return run data modify storage eden:temp automaticons.advancement.max_damage set value 59
 execute if items entity @s weapon.mainhand #eden:stone_tools run return run data modify storage eden:temp automaticons.advancement.max_damage set value 131

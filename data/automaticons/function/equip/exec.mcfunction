@@ -1,4 +1,4 @@
-execute store result storage eden:temp automaticons.creation.db_entry.id.head int 1 run random value 1..451
+execute store result storage eden:temp automaticons.creation.db_entry.id.head int 1 run random value 1..461
 
 execute store result storage eden:temp automaticons.creation.db_entry.id.trim_material_chest int 1 run random value 1..10
 execute store result storage eden:temp automaticons.creation.db_entry.id.trim_pattern_chest int 1 run random value 1..18
@@ -20,6 +20,8 @@ function automaticons:equip/get_db_entries with storage eden:temp automaticons.c
 
 function automaticons:equip/modify with storage eden:temp automaticons.creation
 function automaticons:equip/passengers with storage eden:temp automaticons.creation
+
+function automaticons:poses/exec
 
 tag @s add automaticon.equipped
 data remove storage eden:temp automaticons.creation

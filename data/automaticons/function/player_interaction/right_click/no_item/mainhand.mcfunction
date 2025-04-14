@@ -6,6 +6,9 @@ data modify entity @n[type=item,tag=automaticon.placeholder.tool] Item set from 
 data remove entity @s equipment.mainhand
 
 execute on passengers run execute on passengers run execute on passengers run data modify entity @s text set value {"text":"Durability: -/-","color":"gray","bold":false,"italic":false}
+scoreboard players set @s automaticons.timer 0
+scoreboard players set @s automaticons.damage 0
+scoreboard players set @s automaticons.max_damage 0
 
 execute if entity @s[y_rotation=0] run return run data modify entity @n[type=item,tag=automaticon.placeholder.tool] Motion set value [0.0,0.4,0.2]
 execute if entity @s[y_rotation=45] run return run data modify entity @n[type=item,tag=automaticon.placeholder.tool] Motion set value [-0.1,0.4,0.1]
