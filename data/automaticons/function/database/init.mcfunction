@@ -1,6 +1,6 @@
 ##clear database for rebuild
-data remove storage eden:automaticons_db equipment
-data remove storage eden:automaticons_db names
+data remove storage eden:database automaticons.equipment
+data remove storage eden:database automaticons.names
 
 ##create db entries
 function automaticons:database/head
