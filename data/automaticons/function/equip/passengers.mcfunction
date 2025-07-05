@@ -1,4 +1,4 @@
-summon interaction ~ ~ ~ {width:.5f,height:1.2f,Tags:["automaticon.interaction"]}
+summon interaction ~ ~ ~ {width:.5f,height:1.2f,response:1b,Tags:["automaticon.interaction"]}
 ride @n[type=interaction,tag=automaticon.interaction,tag=!is_mounted,distance=..3] mount @s
 execute store result entity @n[type=interaction,tag=automaticon.interaction,tag=!is_mounted,distance=..3] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
 
