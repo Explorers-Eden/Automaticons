@@ -18,3 +18,6 @@ schedule function automaticons:timer/init 1s
 
 ##create db
 function automaticons:database/init
+
+##set data pack version
+data modify storage eden:datapack automaticons.version set value "2.2"
